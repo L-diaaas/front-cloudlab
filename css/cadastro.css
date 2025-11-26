@@ -1,1 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000; 
+}
 
+.main-container {
+    display: flex;
+    width: 1000px; 
+    height: 700px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background-color: #f8f8f8;
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.side-panel {
+    flex: 1; 
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    color: white; 
+    background-image: url('imagemdenuvem.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Logo.png {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 60px;
+    width: 80%;
+}
+
+.microscopio.png {
+    position: absolute; 
+    bottom: 40px;
+    right: -40px; 
+    width: 300px; 
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden; 
+}
+
+.microscopio.png {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.form-section {
+    flex: 1; 
+    padding: 60px 40px;
+    box-sizing: border-box;
+    background-color: rgba(173, 216, 230, 0.75); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.input-group {
+    position: relative;
+    margin: 15px 0;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 30px 10px 0; 
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    outline: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.input-group .icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+}
+
+input[type="text"]:not(.input-group input), input[type="email"] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid #ccc; 
+    background: transparent;
+    outline: none;
+    font-size: 1em;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.iconGoogle.png, .facebook-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 48%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    gap: 8px; 
+}
+
+.iconGoogle.png {
+    background-color: #db4437; 
+}
+
+.iconFacebook.png {
+    background-color: #4267B2;
+}
+
+.separator {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c8bf5; 
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #3b76e0;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #4c8bf5;
+    text-decoration: none;
+    font-weight: bold;
+}
